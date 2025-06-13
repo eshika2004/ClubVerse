@@ -12,5 +12,10 @@ This application developed using Kotlin with Firebase for backend support and st
 This application provides a centralized platform for students to explore and join clubs, view 
 upcoming events on an interactive calendar, and receive real-time notifications. It features 
 secure authentication via Firebase, allowing users to register, log in, and reset passwords 
-effortlessly. Additional functionalities include a personalized dashboard, club details, event 
+effortlessly. <br> 
+<p align="center">
+  <img src="https://github.com/eshika2004/ClubVerse/blob/dcfe0fa1c336f22c2c2a933db7783e093abc628d/WhatsApp%20Image%202025-06-13%20at%2015.32.20_286037d4.jpg?raw=true" alt="image alt" width="200"/>
+</p>
+
+Additional functionalities include a personalized dashboard, club details, event 
 scheduling, and profile management. </p>
