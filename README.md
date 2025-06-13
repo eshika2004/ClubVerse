@@ -17,5 +17,9 @@ effortlessly. <br>
 <p align="center">
   <img src="https://github.com/eshika2004/ClubVerse/blob/80181c2ac6c2ebab3011415916ce0c17817cbe6f/WhatsApp%20Image%202025-06-13%20at%2015.32.19_4a08f71c.jpg?raw=true" alt="image alt" width="200"/>
 </p>
+<p align="center">
+  <img src="https://github.com/eshika2004/ClubVerse/blob/77f4866590ac01a22d01c4e34c71605fbf2a3b0d/WhatsApp%20Image%202025-06-13%20at%2015.32.19_0348465f.jpg?raw=true" alt="image alt" width="200"/>
+</p>
+
 
 
