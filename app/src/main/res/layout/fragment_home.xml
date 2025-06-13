@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:id="@+id/row1"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        tools:ignore="NotSibling">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/lavender"
+            android:id="@+id/entertainmentclub"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/clubName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/clubImage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-35dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Entertainment"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginStart="-10dp"/>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/clubImage"
+                    android:src="@drawable/enter"
+                    android:layout_marginTop="-20dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sportclub"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/lavender"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/elecName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/elecImage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Sports "
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/elecImage"
+                    android:src="@drawable/sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:id="@+id/row2"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/lavender"
+            android:layout_margin="10dp"
+            android:id="@+id/debateactivity"
+            android:layout_weight="1"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/debatebox"
+                    android:text="Debate "
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="3dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/homeImage"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/homeImage"
+                    android:src="@drawable/debate"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/culturalclub"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/lavender">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/beautyName"
+                    android:text="Cultural "
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="3dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/beautyImage"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/beautyImage"
+                    android:src="@drawable/cul"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:id="@+id/row3"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/filmclub"
+            android:backgroundTint="@color/lavender"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pharmName"
+                    android:text="Film "
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="3dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/pharmImage"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/pharmImage"
+                    android:src="@drawable/film"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/singingclub"
+            android:backgroundTint="@color/lavender"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/singName"
+                    android:text="Singing "
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="-3dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/singImage"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/singImage"
+                    android:src="@drawable/singing"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="175dp"
+        android:id="@+id/row4"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/row3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/yogaclub"
+            android:backgroundTint="@color/lavender"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yogaName"
+                    android:text="Yoga "
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="3dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/yogaImage"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/yogaImage"
+                    android:src="@drawable/yoga"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:id="@+id/artclub"
+            android:backgroundTint="@color/lavender"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/artName"
+                    android:text="Art "
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/artImage"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/artImage"
+                    android:src="@drawable/art"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<!--suppress AndroidDomInspection -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--suppress AndroidDomInspection -->
+    <style name="Base.Theme.LoginSingupAuth" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:statusBarColor" tools:ignore="DuplicateDefinition">@color/lavender</item>
+       <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="colorPrimary">@color/lavender</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="android:colorSecondary">@color/teal_200</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+</resources>

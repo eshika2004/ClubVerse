@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "666489445843",
+    "firebase_url": "https://loginsignupauth-1-default-rtdb.firebaseio.com",
+    "project_id": "loginsignupauth-1",
+    "storage_bucket": "loginsignupauth-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666489445843:android:76cf9f077de193cf126326",
+        "android_client_info": {
+          "package_name": "com.example.loginsignupauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU463zv2e_Gd5J2wzfi2F1jkoBFf91ZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

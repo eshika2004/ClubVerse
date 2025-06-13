@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbkg"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp"
+            android:padding="20dp"
+            tools:ignore="UselessParent">
+
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_name"
+                android:layout_marginTop="30dp"
+                android:autofillHints="name"
+                android:background="@drawable/lavender_border"
+                android:padding="8dp"
+                android:hint="Name"
+                android:textColorHint="#666666"
+                android:drawableStart="@drawable/baseline_account_circle_24"
+                android:drawablePadding="8dp"
+                android:textColor="#111111"/>
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_email"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lavender_border"
+                android:padding="8dp"
+                android:hint="Email"
+                android:textColorHint="#666666"
+                android:drawableStart="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:autofillHints="password"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_password"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColorHint="#666666"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:autofillHints="password"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:id="@+id/signup_confirm"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:padding="8dp"
+                android:hint="Confirm Password"
+                android:textColorHint="#666666"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/sign_up"
+                android:background="@drawable/lavender_border"
+                android:backgroundTint="@color/lavender"
+                android:id="@+id/signup_button"
+                android:textSize="18sp"
+                app:cornerRadius = "30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirectText"
+                android:text="@string/already_an_user_login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="6dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginStart="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
